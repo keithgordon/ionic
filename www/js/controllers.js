@@ -26,6 +26,16 @@ Controller for the discover page
             $scope.currentSong = Recommendations.queue[0];
         }, 250);
     }
+
+    // used for retriving the next album image.
+    // if there isn't an album image available next, return empty string.
+    $scope.nextAlbumImg = function() {
+        if (Recommendations.queue.length > 1) {
+            return Recommendations.queue[1].image_large;
+        }
+
+        return '';
+    }
 })
 
 
