@@ -2,11 +2,11 @@
   <ion-content scroll="false">
 
       <button class="button button-primary button-block " ng-click="checkForUpdates()">
-  Check for updates
-</button>
-<button class="button button-stable button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
-  download update
-</button>
+            Check for updates
+      </button>
+      <button class="button button-stable button-block button-pulse" ng-if="hasUpdate" ng-click="doUpdate()">
+          download update
+      </button>
 
     <div class="list card current-song"
         ng-class="{skipped: currentSong.rated == false,
