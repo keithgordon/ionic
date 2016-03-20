@@ -1,7 +1,7 @@
 {
   "name": "songhop",
   "version": "1.0.0",
-  "description": "songhop: An Ionic project",
+  "description": "songhop: An Keith project",
   "dependencies": {
     "gulp": "^3.8.11",
     "gulp-sass": "^3.3.3",
@@ -9,6 +9,7 @@
     "gulp-minify-css": "^1.1.1",
     "gulp-rename": "^1.2.2"
   },
+  "engines": {"node" : "5.4.1"},
   "devDependencies": {
     "bower": "^1.4.1",
     "gulp-util": "^3.0.4",
