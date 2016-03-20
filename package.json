@@ -19,7 +19,8 @@
   },
   "cordovaPlugins": [
     "ionic-plugin-keyboard",
-    "org.apache.cordova.inappbrowser"
+    "org.apache.cordova.inappbrowser",
+    "ionic-plugin-deploy"
   ],
   "cordovaPlatforms": []
 }
