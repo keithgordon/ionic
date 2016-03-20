@@ -9,10 +9,17 @@
     "gulp-minify-css": "^1.1.1",
     "gulp-rename": "^1.2.2"
   },
-  "engines": {"node" : "5.4.1"},
+  "engines": {
+    "node": "5.4.1"
+  },
   "devDependencies": {
     "bower": "^1.4.1",
     "gulp-util": "^3.0.4",
     "shelljs": "^0.4.0"
-  }
+  },
+  "cordovaPlugins": [
+    "ionic-plugin-keyboard",
+    "org.apache.cordova.inappbrowser"
+  ],
+  "cordovaPlatforms": []
 }
