@@ -1,4 +1,8 @@
 {
   "name": "songhop",
-  "app_id": "f78b8206"
+  "app_id": "12cd710b",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1"
 }
